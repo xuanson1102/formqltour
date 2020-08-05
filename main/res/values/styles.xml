@@ -1,0 +1,235 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="txtMaPDK">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Mã phiếu đăng kí</item>
+
+    </style>
+    <style name="txtMaKH">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Mã khách hàng</item>
+    </style>
+    <style name="txtMaKH2">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Mã khách hàng</item>
+    </style>
+    <style name="txtDiaChi">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Địa chỉ</item>
+    </style>
+    <style name="txtTenKH">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Tên Khách Hàng</item>
+    </style>
+    <style name="txtNgayDK">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:editable">false</item>
+        <item name="android:hint">Ngày đăng kí</item>
+    </style>
+    //
+    <style name="txtSoNguoi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Số người tham gia</item>
+    </style>
+
+    <style name="btnThem">
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_add_box_black_24dp</item>
+        <item name="android:text">Thêm</item>
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+    <style name="txtMaTour">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Mã Tour</item>
+    </style>
+    <style name="txtLoTrinh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Lộ Trình</item>
+    </style>
+    <style name="spHanhTrinh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <style name="txtGiaTour">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Giá Tour</item>
+    </style>
+    <style name="btnXoa">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_delete_black_24dp</item>
+        <item name="android:text">Xoá</item>
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+    <style name="btnSua">
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_update_black_24dp</item>
+        <item name="android:text">Sửa</item>
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+    <style name="btnClear">
+        <item name="android:layout_marginRight">7dp</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:drawableLeft">@drawable/ic_clear_all_black_24dp</item>
+    <item name="android:text">Clear</item>
+        <item name="android:background">@drawable/custom_button</item>
+</style>
+    <style name="btnDate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+    </style>
+    <style name="lvDanhSach">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+
+
+    <style name="txtDongTren">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">DANH SÁCH ĐĂNG KÝ TOUR</item>
+        <item name="android:background">#7F8C8D</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="btnDSTour">
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Xem Danh Sách Mã Tour</item>
+        <item name="android:background">@drawable/custom_button_main</item>
+    </style>
+    <style name="btnDSDangKy">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:text">Xem Danh Sách Phiếu Đăng Ký</item>
+        <item name="android:background">@drawable/custom_button_main</item>
+    </style>
+    <style name="btnDSDiaChi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:text">Xem Danh Sách Phiếu Địa Chỉ</item>
+        <item name="android:background">@drawable/custom_button_main</item>
+    </style>
+    <style name="btnDSThamGia">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:text">Xem Danh Sách Người Tham Gia</item>
+        <item name="android:background">@drawable/custom_button_main</item>
+    </style>
+    <style name="btnExit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:text">Thoát</item>
+        <item name="android:background">#20A0C5</item>
+    </style>
+    <style name="txtDongDuoi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">DESIGN BY TDC</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="IVimgshow">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:src">@drawable/ic_border_outer_black_24dp</item>
+    </style>
+    <style name="tvMaTour">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+    </style>
+    <style name="tvNgayDK">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"> </item>
+    </style>
+    <style name="tvMaKH">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:text"></item>
+</style>
+    <style name="tvTenKH">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+    </style>
+    <style name="tvDiaChi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+    </style>
+    <style name="tvMaPhieu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"> </item>
+    </style>
+    <style name="tvLoTrinh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">HIHI </item>
+    </style>
+    <style name="tvHanhTrinh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"> HIHI</item>
+    </style>
+    <style name="tvGiaTour">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">HIHI </item>
+    </style>
+    <style name="imgView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:src">@drawable/ic_android</item>
+    </style>
+</resources>
