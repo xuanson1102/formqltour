@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour Mangager</string>
+    <string name="chuyen" translatable="false">Next</string>
+    <string name="luu" translatable="false">Save</string>
+    <string name="thoat" translatable="false">Exit</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.DangKyTourActivity">
+
+    <EditText
+        android:id="@+id/txtMaTour"
+        style="@style/txtMaTour" />
+    <EditText
+        android:id="@+id/txtLoTrinh"
+        style="@style/txtLoTrinh" />
+    <Spinner
+
+        android:id="@+id/spHanhTrinh"
+        style="@style/spHanhTrinh"/>
+    <EditText
+        android:id="@+id/txtGiaTour"
+        style="@style/txtGiaTour"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="	#cdcd00"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/btnThem" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/btnXoa"/>
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btnSua"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/btnClear"/>
+    </LinearLayout>
+
+    <ListView
+        android:background="#52f220"
+        android:id="@+id/lvDanhSach"
+        style="@style/lvDanhSach"
+></ListView>
+</LinearLayout>
